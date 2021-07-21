@@ -9,7 +9,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ## Fundamentos do Desenvolvimento Web :white_check_mark:
 
 ##### Bloco 1: Introdução - Unix & Shell
-
+- [x] 1.3: _Fundamentos do Desenvolvimento Web_
+- [x] 1.3: _Introdução - Unix & Shell_
 - [x] 1-3: _Unix & Shell- Part 1_
 - [x] 1-4: _Unix & Shell- Part 2_
 
