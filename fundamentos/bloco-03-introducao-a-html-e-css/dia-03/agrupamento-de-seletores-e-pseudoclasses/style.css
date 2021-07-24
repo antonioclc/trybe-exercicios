@@ -1,0 +1,13 @@
+p, h1 {
+    text-align: center;
+}
+ol:hover {
+    background-color: rgb(56, 53, 53);
+    color: aliceblue;
+}
+li:active {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+li {
+    list-style: none;
+}
