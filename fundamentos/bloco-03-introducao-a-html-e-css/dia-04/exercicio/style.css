@@ -1,21 +1,23 @@
 body {
-    background-color: rgb(13, 119, 119);
+    background-image: url(fundo-do-mar.jpg);
+    background-repeat: no-repeat;
+    background-size: 1550px;
     text-align: center;
-}
-header, h2, h3, h4 {
-    display: block;
-    width: 600px;
-    height: 50px;
-    margin: auto;
-    border: 5px solid black;
-    border-radius: 50px;
-    
+    margin: 0;
 }
 
-h1 {
-    margin-top: 6px;
-    
+header {
+    background-color: rgb(255, 255, 255);
+    display: block;
+    border-bottom: 2px solid rgb(85, 85, 202);
+    border-bottom-style: ridge;
 }
+h1 {
+    margin: 0;
+    height: 60px;
+    font-family: 'Indie Flower', cursive;
+}
+
 
 .fotogrande {
     width: 500px;
