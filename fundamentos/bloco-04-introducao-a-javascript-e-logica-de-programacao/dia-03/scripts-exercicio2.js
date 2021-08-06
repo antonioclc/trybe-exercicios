@@ -1,4 +1,4 @@
-let n = 5
+let n = 10
 
 if (n > 1) {
     for (let linha = 1 ; linha <= n ; linha += 1) {
