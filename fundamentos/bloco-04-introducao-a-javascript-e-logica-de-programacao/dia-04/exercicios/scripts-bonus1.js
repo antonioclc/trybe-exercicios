@@ -28,5 +28,5 @@ function convertNumber (stringNumber) {
     console.log(number)
 }
 
-let teste = 'XVI'
+let teste = 'XXIV'
 convertNumber (teste)
