@@ -42,11 +42,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5-2: _JavaScript - Trabalhando com elementos_
 - [x] 5-3: _JavaScript - Eventos_
 - [x] 5-4: _JavaScript - Web Storage_
-- [x] 5-5: _[Projeto - Meme Generator]()_
+- [x] 5-5: _[Projeto - Meme Generator](https://github.com/tryber/sd-015-b-project-meme-generator/pull/12)_
 - [x] 5-6: _[Projeto - Arte com Pixels](https://github.com/tryber/sd-015-b-project-pixels-art/pull/100)_
 - [x] 5-7: _[Projeto - Lista de tarefas](https://github.com/tryber/sd-015-b-project-todo-list/pull/84)_
-- [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
-- [ ] 5-7: _[Projeto - Carta Misteriosa]()_
+- [x] 5-7: _[Projeto - Adivinhe a Cor](https://github.com/tryber/sd-015-b-project-color-guess/pull/6)_
+- [x] 5-7: _[Projeto - Carta Misteriosa](https://github.com/tryber/sd-015-b-project-mistery-letter/pull/6)_
 
 ##### Bloco 6: HTML & CSS avançado
 
