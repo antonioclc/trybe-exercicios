@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <fieldset>
+        <legend><strong>Preencha os dados</strong></legend>
+        <div>
+            Nome: <input type="text" maxlength="40" required>
+        </div>
+        <div>
+            Email: <input type="text" maxlength="50" required>
+        </div>
+        <div>
+            CPF: <input type="text" maxlength="11" required>
+        </div>
+        <div>
+            Endereço: <input type="text" maxlength="200" required>
+        </div>
+        <div>
+            Cidade: <input type="text" maxlength="28" required>
+        </div>
+        <div>
+            Estado: <select name="states" id="states" required></select>
+        </div>
+            Tipo:
+            <label for="type-1">
+                <input type="radio" name="type" id="type-1" value="Casa"> Casa
+            </label>
+            <label for="type-2">
+                <input type="radio" name="type" id="type-2" value="Apartamento"> Apartamento
+            </label>
+    </fieldset>
+    <fieldset>
+        <legend><strong>Dados do seu último emprego</strong></legend>
+        <div>
+            <legend>Resumo do currículo</legend>
+            <textarea name="resume" id="resume" cols="30" rows="5" maxlength="1000" required></textarea>
+        </div>
+        <div>
+            Cargo: <input type="text" maxlength="40" required>
+        </div>
+        <div>
+            Descrição do cargo: <input type="text" maxlength="500" required>
+        </div>
+        <div>
+            Data de início: <input type="text" required>
+        </div>
+    </fieldset>
+    <script src="script.js"></script>
+</body>
+</html>
