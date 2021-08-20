@@ -5,53 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <link href="validation.min.css" rel="stylesheet">
+    <!-- CDN's -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+    
+    
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <fieldset>
-        <legend><strong>Preencha os dados</strong></legend>
-        <div>
-            Nome: <input type="text" maxlength="40" required>
-        </div>
-        <div>
-            Email: <input type="text" maxlength="50" required>
-        </div>
-        <div>
-            CPF: <input type="text" maxlength="11" required>
-        </div>
-        <div>
-            Endereço: <input type="text" maxlength="200" required>
-        </div>
-        <div>
-            Cidade: <input type="text" maxlength="28" required>
-        </div>
-        <div>
-            Estado: <select name="states" id="states" required></select>
-        </div>
-            Tipo:
-            <label for="type-1">
-                <input type="radio" name="type" id="type-1" value="Casa"> Casa
-            </label>
-            <label for="type-2">
-                <input type="radio" name="type" id="type-2" value="Apartamento"> Apartamento
-            </label>
-    </fieldset>
-    <fieldset>
-        <legend><strong>Dados do seu último emprego</strong></legend>
-        <div>
-            <legend>Resumo do currículo</legend>
-            <textarea name="resume" id="resume" cols="30" rows="5" maxlength="1000" required></textarea>
-        </div>
-        <div>
-            Cargo: <input type="text" maxlength="40" required>
-        </div>
-        <div>
-            Descrição do cargo: <input type="text" maxlength="500" required>
-        </div>
-        <div>
-            Data de início: <input type="text" required>
-        </div>
-    </fieldset>
+<body class="bg-light">
+    <form action="" method="GET">
+        <fieldset>
+            <legend class="display-1"><strong>Preencha os dados</strong></legend>
+            <div class="form-floating mb-3 mx-auto">
+                <input type="name" class="form-control mx-auto" id="floatingInput" placeholder="Name">
+                <label for="floatingInput">Nome:</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="nome@exemplo.com">
+                <label for="floatingInput">Email:</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="cpf" class="form-control" id="floatingInput" placeholder="CPF">
+                <label for="floatingInput">CPF:</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="adress" class="form-control" id="floatingInput" placeholder="Endereço">
+                <label for="floatingInput">Endereço:</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="city" class="form-control" id="floatingInput" placeholder="Cidade">
+                <label for="floatingInput">Cidade</label>
+            </div>
+            <div>
+                <select class="form-select" id="states" aria-label="Default select example"></select>
+                Tipo:
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="casa" id="type1">Casa
+                <label class="form-check-label" for="type1">
+                  Default radio
+                </label>
+            </div>
+                <label for="type-2">
+                    <input type="radio" name="type" id="type-2" value="Apartamento"> Apartamento
+                </label>
+        </fieldset>
+        <fieldset>
+            <legend><strong>Dados do seu último emprego</strong></legend>
+            <div>
+                <legend>Resumo do currículo</legend>
+                <textarea name="resume" id="resume" cols="30" rows="5" maxlength="1000" required></textarea>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Cargo:</label>
+              </div>
+            <div>
+                Descrição do cargo: <input type="text" maxlength="500" required>
+            </div>
+            <div>
+                Data de início: <input type="text" id="datepicker" required>
+            </div>
+        </fieldset>
+        <button type="submit" id="submmitBtn">Enviar formulário</button>
+    </form>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+    <script>var picker = new Pikaday({ field: document.getElementById('datepicker') });</script>
+    <script src="validation.min.js"></script> 
 </body>
 </html>
