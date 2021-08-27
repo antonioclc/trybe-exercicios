@@ -1,0 +1,58 @@
+body {
+margin: 20px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 579px) {
+    body {
+        background-color: rgb(216, 211, 211);
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main h2 {
+        flex-direction: column;
+    }
+
+    figure {
+        background: black;
+        border-radius: 5px;
+        color: white;
+        margin: 0 5px 25px 5px;
+        padding: 10px;
+        text-align: center;
+        
+      }
+
+    main figure img {
+        width: 150px;
+    }
+
+    main section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
