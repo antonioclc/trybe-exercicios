@@ -15,3 +15,13 @@ const newEmployees = () => {
 };
 
 // 2 - Desenvolva uma HOF que retorna o resultado de um sorteio. Esta HOF irá gerar um número aleatório entre 1 e 5 recebendo como parâmetros o número apostado e uma função que checa se o número apostado é igual ao número sorteado. O retorno da sua HOF deve ser uma string (Ex: "Tente novamente" ou "Parabéns você ganhou").
+
+
+const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+const multipliesFor2 = (element) => {
+  console.log(`${element} * 2: ${element * 2}`);
+};
+
+numbers.forEach(multipliesFor2);
+console.log(typeof numbers)
