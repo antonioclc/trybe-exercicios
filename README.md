@@ -126,7 +126,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e/ou online, abord
 - [x] 15-5: _Testes em React-Redux_
 - [x] 15-6: _[Projeto - Trybe Wallet](https://github.com/tryber/sd-015-b-project-trybewallet/pull/83)_
 
-##### Bloco 16: Projeto React
+##### Bloco 16: Projeto Jogo de Trivia
 
 - [x] 16-1: _[Projeto - Jogo de Trivia](https://github.com/tryber/sd-015-b-project-trivia-react-redux/tree/main-group-15)_
 
@@ -137,83 +137,95 @@ O programa conta com mais de 1.500 horas de aulas presenciais e/ou online, abord
 - [x] 17-3: _React Hooks - useEffect e Hooks customizados_
 - [x] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks](https://github.com/tryber/sd-015-b-project-starwars-planets-search/pull/110)_
 
-##### Bloco 18: Projeto Final de Front-end
+##### Bloco 18: Projeto App de Receitas
 
 - [x] 18-1: _[Projeto - App de Receitas](https://github.com/tryber/sd-015-b-project-recipes-app/tree/main-group-26)_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
-##### Bloco 19: Introdução - Bancos de dados relacionais
+##### Bloco 19: Docker - Utilizando Containers
 
-- [ ] 19-1: _Banco de dados SQL_
-- [ ] 19-2: _Encontrando dados em um banco de dados_
-- [ ] 19-3: _Filtrando dados de forma específica_
-- [ ] 19-4: _Manipulando tabelas_
-- [ ] 19-5: _[Projeto - All For One]()_
+- [x] 19-1: _Utilizando containers no Docker_
+- [x] 19-2: _Manipulação e Criação de Imagens no Docker_
+- [x] 19-3: _Orquestrando Containers com Docker Compose_
+- [x] 19-4: _[Projeto - Docker Todo-List](https://github.com/tryber/sd-015-b-project-docker-todo-list/pull/126)_
 
-##### Bloco 20: Bancos de dados relacionais
+##### Bloco 20: Introdução à SQL
 
-- [ ] 20-1: _Funções mais usadas no SQL_
-- [ ] 20-2: _Descomplicando JOINs e UNIONs_
-- [ ] 20-3: _Stored Routines & Subqueries_
-- [ ] 20-4: _[Projeto - Vocabulary Booster]()_
+- [x] 20-1: _Banco de dados SQL_
+- [x] 20-2: _Encontrando dados em um banco de dados_
+- [x] 20-3: _Filtrando dados de forma específica_
+- [x] 20-4: _Manipulando tabelas_
+- [x] 20-4: _[Projeto - All for One](https://github.com/tryber/sd-015-b-mysql-all-for-one/pull/95)_
 
-##### Bloco 21: Bancos de dados relacionais
+##### Bloco 21: Funçòes SQL, JOINs e Normalização
 
-- [ ] 21-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 21-2: _Normalização, Formas Normais e Dumps_
-- [ ] 21-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 21-3: _[Projeto - One For All]()_
+- [x] 20-1: _Funções mais usadas no SQL_
+- [x] 20-2: _Descomplicando JOINs_
+- [x] 20-3: _Transformando ideias em um modelo de banco de dados_
+- [x] 20-4: _[Projeto - One for All](https://github.com/tryber/sd-015-b-mysql-one-for-all/pull/112)_
 
-##### Bloco 22: Introdução - NoSQL
+##### Bloco 22: Introdução ao desenvolvimento Web com Node.js
 
-- [ ] 22-1: _MongoDB - Introdução_
-- [ ] 22-2: _Filter Operators_
-- [ ] 22-3: _[Projeto - Data Flights]()_
+- [x] 22-1: _Node.js - Um motor JavaScript_
+- [x] 22-2: _Node.js - Fluxo Assíncrono_
+- [x] 22-3: _Mocha, Chai e Sinon - Testes de Back-end com Node.js_
+- [x] 22-4: _Express - HTTP com Node.js_
+- [x] 22-5: _Express - Middlewares_
+- [x] 22-6: _[Projeto - Talker Manager](https://github.com/tryber/sd-015-b-project-talker-manager/pull/115)_
 
-##### Bloco 23: Updates
+##### Bloco 23: Node.js: Camada de Serviço e Arquitetura Rest e Restful
 
-- [ ] 23-1: _Updates Simples_
-- [ ] 23-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 23-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 23-4: _[Projeto - Commerce]()_
+- [x] 23-1: _Arquitetura de Software - Camada de Model_
+- [x] 23-2: _Arquitetura de Software - Camada de Controller e Service_
+- [x] 23-3: _Arquitetura Web - Rest e Restful_
+- [x] 23-4: _Arquitetura de Software - Testando as Camadas_
+- [x] 23-5: _[Projeto - Store Manager](https://github.com/tryber/sd-015-b-store-manager/pull/141)_
 
-##### Bloco 24: Aggregation Framework
+##### Bloco 24: Node.js: ORM e Autenticação
 
-- [ ] 24-1: _Aggregation Framework - Part 1_
-- [ ] 24-2: _Aggregation Framework - Part 2_
-- [ ] 24-3: _[Projeto - Aggregations]()_
+- [ ] 24-1: _ORM - Interface da aplicação com banco de dados_
+- [ ] 24-2: _ORM - Associations_
+- [ ] 24-3: _JWT - JSON Web Token_
+- [ ] 24-4: _Testando APIs com Testes de Integração_
+- [ ] 24-5: _[Projeto - API de blogs]()_
 
-##### Bloco 25: Intro - NodeJS
+##### Bloco 25: Deployment
 
-- [ ] 25-1: _NodeJS - Introdução_
-- [ ] 25-2: _NodeJS - Fluxo Assíncrono_
-- [ ] 25-3: _NodeJS - Arquitetura_
-- [ ] 25-4: _[Projeto - A CLI of Ice and Fire]()_
+- [ ] 25-1: _Infraestrutura - Deploy com Heroku_
+- [ ] 25-2: _Deploy Docker & Heroku_
+- [ ] 25-3: _[Projeto - Stranger Things]()_
 
-##### Bloco 26: NodeJS
+##### Bloco 26: TypeScript
 
-- [ ] 26-1: _Express: HTTP com Node.js_
-- [ ] 26-2: _Arquitetura de Software - Introdução ao MVC_
-- [ ] 26-3: _[Projeto - Cookmaster]()_
+- [ ] 26-1: _Introdução ao TypeScript_
+- [ ] 26-2: _Tipagem Estática e Generics_
+- [ ] 26-3: _Express com TypeScript_
+- [ ] 26-4: _[Projeto - Trybe Smith]()_
 
-##### Bloco 27: NodeJS
+##### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
 
-- [ ] 27-1: _Arquitetura de Software - Camada de Serviço_
-- [ ] 27-2: _Arquitetura web - Rest e Restful_
-- [ ] 27-3: _[Projeto - Store Manager]()_
+- [ ] 27-1: _Introdução à Orientação a Objetos_
+- [ ] 27-2: _Herança e Interfaces_
+- [ ] 27-3: _Polimorfismo_
+- [ ] 27-4: _SOLID - Introdução e Pincípios S, O e D_
+- [ ] 27-5: _SOLID - Princípios L e I_
+- [ ] 27-3: _[Projeto - Trybers and Dragons]()_
 
-##### Bloco 28: NodeJS
+##### Bloco 28: Projeto - TFC - Trybe Futebol Clube
 
-- [ ] 28-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 28-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 28-3: _[Projeto - Cookmaster V2]()_
+- [ ] 28-1: _[Projeto - TFC - Trybe Futebol Clube]()_
 
-##### Bloco 29: Introdução - Deploy
+##### Bloco 29: Introdução ao MongoDB
 
-- [ ] 29-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 29-2: _Deploy - Gerenciadores de Processos_
-- [ ] 29-3: _[Projeto - Stranger Things]()_
+- [ ] 29-1: _MongoDB - Introdução_
+- [ ] 29-2: _Filter Operators_
+- [ ] 29-3: _Operadores de consulta_
+- [ ] 29-4: _Updates Simples_
+- [ ] 29-5: _Updates Complexos - Arrays_
+- [ ] 29-3: _[Projeto - Commerce]()_
+
+!!! FALTA ATUALIZAR DAQUI PRA BAIXO !!!
 
 ##### Bloco 30: Projeto
 
